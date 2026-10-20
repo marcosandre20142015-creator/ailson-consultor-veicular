@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ailson - Consultor Destaque Proteção Veicular | TOP BRASIL</title>
+
+    <!-- Ícones e Fontes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Ligação ao CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <div class="top-info">
+                <span><i class="fa-solid fa-phone"></i> (83) 9 9637-6499</span>
+                <span><i class="fa-solid fa-award"></i> Consultor Destaque TOP BRASIL</span>
+            </div>
+            <span><i class="fa-solid fa-clock"></i> Atendimento Rápido 24H</span>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-shield-halved" style="color: var(--primary);"></i>
+                TOP <span>BRASIL</span>
+            </a>
+
+            <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Abrir Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Quem é Ailson</a></li>
+                <li><a href="#ofertas">O que Oferece</a></li>
+                <li><a href="#conquistas">Conquistas</a></li>
+                <li><a href="#associados">Associados</a></li>
+                <li><a href="#cotacao">Cotação</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+
+            <a href="https://wa.me/5583996428510" target="_blank" class="btn-whatsapp">
+                <i class="fa-brands fa-whatsapp"></i> Falar com um Consultor
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="inicio">
+        <div class="hero-text">
+            <span class="price-badge"><i class="fa-solid fa-tag"></i> Planos a partir de R$ 79,90/mês</span>
+            <h1>Proteção Veicular de Confiança com o <span>Ailson</span></h1>
+            <p>Garanta a segurança do seu veículo com um consultor premiado e reconhecido na maior proteção veicular da
+                região. Atendimento 100% humanizado e sem burocracia.</p>
+
+            <ul class="hero-features">
+                <li><i class="fa-solid fa-circle-check"></i> Consultor Premiado em Vendas</li>
+                <li><i class="fa-solid fa-circle-check"></i> Sem Consulta ao SPC/Serasa</li>
+                <li><i class="fa-solid fa-circle-check"></i> Cobertura Completa Roubo e Colisão</li>
+                <li><i class="fa-solid fa-circle-check"></i> Terceiros sem Franquia</li>
+            </ul>
+
+            <!-- COTAÇÃO FORM -->
+            <div class="form-container" id="cotacao">
+                <h2>Simule Agora sem Compromisso</h2>
+                <p>Preencha os dados e receba a cotação no seu WhatsApp em instantes</p>
+                <form id="cotacaoForm">
+                    <div class="form-group">
+                        <label for="nome">Seu Nome</label>
+                        <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tipo">Tipo de Veículo</label>
+                        <select id="tipo" required>
+                            <option value="Carro">Carro</option>
+                            <option value="Moto">Moto</option>
+                            <option value="Utilitário/Caminhão">Utilitário / Caminhão</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="modelo">Modelo e Ano do Veículo</label>
+                        <input type="text" id="modelo" placeholder="Ex: Onix 2020 / Titan 160" required>
+                    </div>
+                    <button type="submit" class="btn-submit">
+                        <i class="fa-brands fa-whatsapp"></i> RECEBER COTAÇÃO GRATUITA
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- IMAGEM DO BANNER COM BOTAO E MENSAGEM -->
+        <!-- NOVA IMAGEM GERADA POR IA -->
+        <!-- BANNER DO CONSULTOR COM CAMADAS SOBREPOSTAS -->
+        <div class="hero-banner-container">
+            <img src="img/download.jpg" alt="Ailson Consultor Top Brasil" class="hero-banner-img">
+
+            <!-- Mensagem flutuante discreta -->
+            <span class="consultor-tag-overlay">
+                <span class="status-dot-active"></span>
+                Consultor Online
+            </span>
+
+            <!-- Botao flutuante profissional sobre a imagem -->
+            <a href="https://wa.me/5583996428510" target="_blank" rel="noopener noreferrer"
+                class="btn-whatsapp-overlay">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Solicitar Cotação Agora</span>
+            </a>
+
+
+        </div>
+
+
+
+    </section>
+
+    <!-- SEÇÃO 1: QUEM É AILSON & O QUE ELE OFERECE -->
+    <section class="about-section" id="sobre">
+        <div class="about-container">
+            <!-- CAIXA DA IMAGEM DO CONSULTOR (DO ZERO) -->
+            <div class="quem-sou-foto-bloco">
+                <img src="img/consultor.jpg" alt="Ailson Virgulinno - Consultor Top Brasil">
+
+                <!-- 🚀 Botão do WhatsApp embutido perfeitamente aqui: -->
+                <a href="https://wa.me/5583996428510" target="_blank" rel="noopener noreferrer"
+                    class="btn-whatsapp-overlay">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>Solicitar Cotação Agora</span>
+                </a>
+            </div>
+
+
+
+
+
+            <div class="about-content" id="ofertas">
+                <span class="sub-tag"><i class="fa-solid fa-user-shield"></i> Atendimento Especializado</span>
+                <h2>Quem é <span>Ailson</span> e o que ele Oferece?</h2>
+                <p><strong>Ailson</strong> é consultor especialista em Proteção Veicular da <strong>TOP BRASIL</strong>,
+                    focado em entregar soluções acessíveis, seguras e transparentes para condutores de carros, motos e
+                    utilitários.</p>
+
+                <p class="section-desc">Com um trabalho pautado na agilidade e no respeito ao cliente, Ailson oferece um
+                    pacote completo de proteção para o seu veículo:</p>
+
+                <ul class="offers-list">
+                    <li>
+                        <i class="fa-solid fa-people-carry-box"></i>
+                        <div>
+                            <strong>Atendimento Humanizado</strong>
+                            <p>Contato direto e sem intermediários com o seu consultor sempre que precisar.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-file-signature"></i>
+                        <div>
+                            <strong>Sem Burocracia</strong>
+                            <p>Aprovação rápida e facilidade na contratação, sem consulta ao SPC/Serasa.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-car-burst"></i>
+                        <div>
+                            <strong>Colisões, Roubo e Perda Total</strong>
+                            <p>Proteção integral contra imprevistos, roubos, furto qualificado e acidentes graves.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-handshake"></i>
+                        <div>
+                            <strong>Terceiros sem Franquia</strong>
+                            <p>Cobertura para danos a veículos de terceiros sem cobrança de franquia.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-headset"></i>
+                        <div>
+                            <strong>Assistência 24 Horas</strong>
+                            <p>Socorro mecânico, elétrico, guincho, chaveiro e auxílio em todo o Brasil.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <div>
+                            <strong>Valores Acessíveis</strong>
+                            <p>Planos completos e sob medida a partir de apenas <strong>R$ 79,90 ao mês</strong>.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 2: RECONHECIMENTO & METAS BATIDAS -->
+    <section class="achievements-section" id="conquistas">
+        <div class="achievements-container">
+            <div class="achievements-content">
+                <span class="sub-tag"><i class="fa-solid fa-trophy"></i> Reconhecimento Nacional</span>
+                <h2>Destaque e <span>Metas Batidas</span> na TOP BRASIL</h2>
+                <p>Ailson consolida sua trajetória de sucesso na TOP BRASIL através de resultados expressivos,
+                    premiações consecutivas e excelência no atendimento aos seus protegidos.</p>
+
+                <div class="stats-cards">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-medal"></i></div>
+                        <div class="stat-info">
+                            <h3>Consultor Premiado</h3>
+                            <p>Reconhecido com medalhas de destaque pelo cumprimento de metas e volume de proteções
+                                realizadas.</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-chart-line"></i></div>
+                        <div class="stat-info">
+                            <h3>+95 Mil Associados</h3>
+                            <p>Faz parte da expansão da TOP BRASIL, que já ultrapassou a marca de 95 mil associados em
+                                todo o país.</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-star"></i></div>
+                        <div class="stat-info">
+                            <h3>Top Performance</h3>
+                            <p>Excelência no suporte e pós-venda, garantindo alta satisfação entre os motoristas
+                                atendidos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="achievements-img-box">
+                <img src="img/premiacao.jpg" alt="Ailson Premiado Metas Batidas Top Brasil" class="achievement-img">
+                <div class="badge-overlay">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span>Entre as maiores do Brasil</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 3: ASSOCIADOS PROTEGIDOS -->
+    <section class="associates-section" id="associados">
+        <div class="associates-container">
+            <div class="associates-header">
+                <span class="sub-tag"><i class="fa-solid fa-users"></i> Satisfação Garantida</span>
+                <h2 class="section-title">Nossos <span>Associados</span> Protegidos</h2>
+                <p class="section-subtitle">Quem protege seu veículo com o consultor Ailson garante tranquilidade e
+                    confiança todos os dias.</p>
+            </div>
+
+            <div class="associates-grid">
+                <div class="associate-card">
+                    <img src="img/cliente1.jpg" alt="Associado Douglas com o Consultor Ailson" class="associate-img">
+                    <div class="associate-body">
+                        <i class="fa-solid fa-quote-left quote-icon"></i>
+                        <p class="associate-quote">"Fechei a proteção do meu veículo com o Ailson e tive um atendimento
+                            excelente do início ao fim. Total confiança na TOP BRASIL!"</p>
+                        <h3 class="associate-name">Douglas</h3>
+                        <span class="associate-tag">Associado TOP BRASIL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section" id="faq">
+        <h2 class="section-title">Dúvidas <span>Frequentes</span></h2>
+        <p class="section-subtitle">Tire suas dúvidas antes de proteger seu veículo com o Ailson</p>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>O que é preciso para contratar?</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                É simples! Apenas documento do veículo (CRLV), CNH e comprovante de residência. Não fazemos consulta ao
+                SPC/Serasa.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>Qualquer condutor habilitado pode dirigir o veículo?</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                Sim! Na TOP BRASIL não há restrição de condutor. Qualquer pessoa devidamente habilitada tem cobertura.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>Como funciona a Assistência 24h?</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                Em caso de pane, acidente ou emergência, basta acionar a nossa central disponível 24 horas por dia em
+                todo o Brasil.
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <i class="fa-solid fa-shield-halved" style="color: var(--primary);"></i> TOP <span>BRASIL</span>
+            </div>
+            <p>Ailson - Consultor Destaque TOP BRASIL Proteção Veicular</p>
+            <p><i class="fa-solid fa-phone"></i> (83) 9 99642-68510</p>
+            <p style="font-size: 0.8rem; color: #666; margin-top: 10px;">
+                &copy; 2026 TOP BRASIL Proteção Veicular. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP -->
+    <a href="https://wa.me/5583996428510" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Ligação ao JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+
+</html>
