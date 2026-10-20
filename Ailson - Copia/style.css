@@ -1173,3 +1173,9 @@ button.btn-submit:hover {
     height: auto !important;
     /* Força a foto a obedecer o formato original dela */
 }
+
+@media (max-width: 480px) {
+    .badge-destaque {
+        display: none;
+    }
+}
