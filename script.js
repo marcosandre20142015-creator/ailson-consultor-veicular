@@ -46,7 +46,7 @@ function enviarCotacaoWhatsApp(event) {
     const ano = document.getElementById('ano').value;
     const tipo = document.getElementById('tipo').value;
 
-    const telefone = "5583996428510"; // WhatsApp do Ailson
+    const telefone = "5583981970327"; // WhatsApp do Ailson
 
     const mensagem = `Olá, Ailson! Gostaria de fazer uma cotação de proteção veicular:%0A%0A` +
         `👤 *Nome:* ${encodeURIComponent(nome)}%0A` +
@@ -72,6 +72,25 @@ window.addEventListener('DOMContentLoaded', () => {
     prevBtn.addEventListener('click', (e) => {
       e.preventDefault();
       carousel.scrollBy({ left: -370, behavior: 'smooth' });
+    });
+  }
+});
+
+
+window.addEventListener('DOMContentLoaded', () => {
+  const galeriaCarousel = document.getElementById('galeriaCarousel');
+  const galeriaPrevBtn = document.getElementById('prevBtnGaleria');
+  const galeriaNextBtn = document.getElementById('nextBtnGaleria');
+
+  if (galeriaCarousel && galeriaPrevBtn && galeriaNextBtn) {
+    galeriaNextBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      galeriaCarousel.scrollBy({ left: 344, behavior: 'smooth' });
+    });
+
+    galeriaPrevBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      galeriaCarousel.scrollBy({ left: -344, behavior: 'smooth' });
     });
   }
 });

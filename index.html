@@ -44,9 +44,11 @@
 
             <ul class="nav-links" id="navLinks">
                 <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Quem é Ailson</a></li>
+                <li><a href="#sobre">Quem é Ailson?</a></li>
                 <li><a href="#ofertas">O que Oferece</a></li>
                 <li><a href="#conquistas">Conquistas</a></li>
+                <li><a href="#associados">Associados</a></li>
+                <li><a href="#galeria">Galeria</a></li>
                 <li><a href="#cotacao">Cotação</a></li>
                 <li><a href="#faq">FAQ</a></li>
             </ul>
@@ -83,10 +85,10 @@
             <!-- LISTA DE BENEFÍCIOS -->
             <ul class="hero-features">
                 <li><i class="fa-solid fa-circle-check"></i> Atendimento humanizado</li>
-                <li><i class="fa-solid fa-circle-check"></i> Sem análise de perfil ou consulta a órgãos de crédito</li>
+                <li><i class="fa-solid fa-circle-check"></i> Sem consulta a órgãos de crédito</li>
                 <li><i class="fa-solid fa-circle-check"></i> Cobertura Completa Roubo e Colisão</li>
                 <li><i class="fa-solid fa-circle-check"></i> Assistência 24h</li>
-                <li><i class="fa-solid fa-circle-check"></i> Faça sua cotação em qualquer lugar do Brasil</li>
+                <li><i class="fa-solid fa-circle-check"></i> Cotação em qualquer lugar do Brasil</li>
             </ul>
 
             <!-- BOTÃO PARA CHAMAR A ATENÇÃO -->
@@ -99,7 +101,7 @@
         </div>
     </section>
 
-    <!-- SECÇÃO: Quem é Ailson -->
+    <!-- SECÇÃO: Quem é Ailson? -->
     <section class="about-section" id="sobre">
         <div class="about-container">
 
@@ -387,6 +389,65 @@
             </div>
         </div>
     </section>
+
+    <!-- SEÇÃO GALERIA DE FOTOS -->
+    <section class="galeria-fotos-section" id="galeria">
+        <div class="galeria-fotos-container">
+            <div class="galeria-fotos-header">
+                <span class="sub-tag"><i class="fa-solid fa-images"></i> Fotos</span>
+                <h2 class="section-title">Nossos <span>Momentos</span></h2>
+
+            </div>
+
+            <!-- Wrapper da Galeria com Botões -->
+            <div class="galeria-fotos-wrapper">
+
+                <!-- Botão Anterior -->
+                <button class="galeria-btn-nav prev"
+                    onclick="document.getElementById('galeriaCarousel').scrollBy({ left: -344, behavior: 'smooth' })"
+                    aria-label="Anterior">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <!-- Carrossel -->
+                <div class="galeria-fotos-carousel" id="galeriaCarousel">
+
+                    <div class="galeria-foto-item">
+                        <img src="img/ft0.jpg" alt="Galeria Top Brasil 1">
+                    </div>
+
+                    <div class="galeria-foto-item">
+                        <img src="img/ft1.jpg" alt="Galeria Top Brasil 2">
+                    </div>
+
+                    <div class="galeria-foto-item">
+                        <img src="img/ft2.jpg" alt="Galeria Top Brasil 3">
+                    </div>
+
+                    <div class="galeria-foto-item">
+                        <img src="img/ft3.jpg" alt="Galeria Top Brasil 4">
+                    </div>
+
+                    <div class="galeria-foto-item">
+                        <img src="img/ft4.jpg" alt="Galeria Top Brasil 5">
+                    </div>
+                    <div class="galeria-foto-item">
+                        <img src="img/fttt6.jpg" alt="Galeria Top Brasil 6">
+                    </div>
+
+                </div>
+
+                <!-- Botão Próximo -->
+                <button class="galeria-btn-nav next"
+                    onclick="document.getElementById('galeriaCarousel').scrollBy({ left: 344, behavior: 'smooth' })"
+                    aria-label="Próximo">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
 
     <!-- SEÇÃO DE COTAÇÃO -->
     <section class="cotacao-section" id="cotacao">
